@@ -1,0 +1,7 @@
+alias gst='git status'
+alias gl='git log'
+alias ga='git add .'
+alias gco='git checkout'
+alias gcm='git commit -m'
+alias gp='git push'
+alias gpoh='git push origin head'
