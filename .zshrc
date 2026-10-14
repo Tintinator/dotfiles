@@ -12,3 +12,8 @@ alias gclean="git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git bra
 
 # general
 alias ll="ls -al"
+alias aliasfile="vim ~/.zshrc"
+
+# java
+alias use21="export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home; export PATH=\$JAVA_HOME/bin:\$PATH; java -version"
+alias use25="export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home; export PATH=\$JAVA_HOME/bin:\$PATH; java -version"
